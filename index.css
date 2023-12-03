@@ -1,0 +1,98 @@
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0PX;
+}
+
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px grey;
+}
+
+.header-heading {
+    margin: 0px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #5c6061;
+    font-weight: 900;
+}
+
+.header-para {
+    margin: 0px;
+    letter-spacing: 3px;
+    font-size: 9px;
+    font-weight: 900;
+    color: #5c6061;
+}
+
+.image-container {
+    background-image: url('https://res.cloudinary.com/djxakd7bv/image/upload/v1701508926/armenia-2_ae8f7t.webp');
+    height: 35vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.title-container {
+    background-color: grey;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.description-container {
+    padding: 10px 20px;
+    font-family: "Times New Roman";
+}
+
+.description-heading {
+    color: #5c6061;
+    font-size: 35px;
+    margin: 0px;
+}
+
+#show-more {
+    align-self: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #05d0f0;
+    font-weight: 600;
+}
+
+#description {
+    color: grey;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Merriweather Sans", sans-serif;
+    margin: 0px;
+}
+
+.contact-container {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.contact-number {
+    color: #05d0f0;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.contact-heading {
+    color: #5c6061;
+    font-weight: 500;
+    margin: 0px;
+}
